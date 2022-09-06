@@ -20,7 +20,9 @@ void Write_to_file(orderslist * lastorder, bool *readflg, char *filename) {
 		mode = "w";
 	}
 	else {
+
 		mode = "a";
+
 	}
 
 	if (NULL != lastorder) {
