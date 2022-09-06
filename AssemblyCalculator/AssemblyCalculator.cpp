@@ -43,8 +43,9 @@ int main(int argc, char* argv[])
 	orderslist *lastorder = NULL;
 	pmenu *addr = topmenu->Menu_create();
 
-	topmenu->Show_menu_head(topmenu);
+	
 	topmenu->Menu_print(addr);
+	topmenu->Show_menu_head(topmenu);
 	topmenu->menu_print_startsuggestions();
 	topmenu->menu_print_name();
 

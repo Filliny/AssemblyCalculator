@@ -238,7 +238,7 @@ void Order::Switch_input(Order* noaddr, int h, int v)
 
 			for (int a = 32; a >= 4; ) {
 				posmove(h + C_FIELD, v);
-				printf("                                           ", a);
+				printf("U need to fix this string in orderslidst line 241 %d", a);
 				posmove(h + C_FIELD, v);
 				printf("How many %d channels switch You need? - ", a);
 				int nvrq = 0;
